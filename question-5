@@ -1,0 +1,18 @@
+
+#include<iostream>
+using namespace std;
+
+
+int main(){
+	
+    int S,E,W,temp;
+    cin>>S>>E>>W;
+    
+    while(S<=E){
+        temp=(S-32)*5/9;
+        cout<<S<<" "<<temp<<endl;
+         S=S+W;
+    }
+    
+  
+}
